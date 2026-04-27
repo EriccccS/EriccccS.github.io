@@ -2,56 +2,133 @@
 <html>
 
 <head>
-    <title>My cool DATA 1500 project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Does Money Buy Happiness?</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
-    <!-- Google Fonts（需要你自己替换为实际embed代码） -->
-    <!-- 在这里粘贴 Google Fonts 的 <link> -->
-
-    <!-- D3 -->
-    <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 
 <body>
+    <main class="page-wrap">
+        <header class="hero">
+            <p class="kicker">Global Data Narrative</p>
+            <h1>Does Money Buy Happiness?</h1>
+            <p class="byline">By Bowei Sun</p>
+            <div class="divider"></div>
+            <p class="standfirst">
+                At the country level, income clearly matters for well-being, but it does not explain everything. This story follows one central question: how far money can take a nation, and what else determines whether people feel their lives are going well.
+            </p>
+        </header>
 
-    <!-- 标题 -->
-    <h1>My cool project for DATA 1500</h1>
+        <figure class="hero-image">
+            <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=2000&q=80" alt="Night city skyline representing national development and wealth">
+            <figcaption>National wealth expands opportunity, but it does not fully determine how people evaluate their lives.</figcaption>
+        </figure>
 
-    <!-- 分割线 -->
-    <div class="divider"></div>
+        <article class="story-block">
+            <section class="chapter">
+                <p>
+                    "Does money buy happiness?" is one of the oldest questions in economics and public policy. At the individual level, the answer is often debated. At the country level, the patterns are clearer, and also more surprising. Richer countries generally report higher average life evaluations. That relationship is not random: income expands access to healthcare, education, safety nets, transportation, and housing stability. When people are less exposed to daily insecurity, well-being tends to rise.
+                </p>
+                <p>
+                    But country rankings also reveal something deeper. Nations with similar income levels can show very different happiness scores. Some outperform their GDP; others underperform despite significant wealth. That means income is doing important explanatory work, but it is not acting alone. The first chart matters because it establishes both halves of the argument at once: wealth helps, yet the spread around that relationship is too large to ignore. Money is part of the architecture of happiness, but not the full blueprint.
+                </p>
+            </section>
 
-    <!-- 第一段 -->
-    <p>This is my project. I am building a website using HTML, CSS, and JavaScript.</p>
+            <figure>
+                <img src="./1Artboard 2@2x.png" alt="Global framing visual for happiness data">
+                <figcaption>Across countries, income and happiness show a clear positive relationship, with notable exceptions.</figcaption>
+            </figure>
 
-    <!-- 图片 -->
-    <img 
-        src="./rhode_island.png" 
-        alt="Rhode Island visualization"
-    >
+            <div class="story-divider" aria-hidden="true"></div>
 
-    <!-- 第二段 -->
-    <p>This is another paragraph describing my project and data.</p>
+            <section class="chapter">
+                <p>
+                    The first big finding is straightforward: lower-income countries often face constraints that make high national happiness difficult to sustain. Limited fiscal capacity weakens public services, economic shocks hit harder, and households have fewer buffers when crises occur. In that context, rising income can meaningfully improve lived conditions, not just abstract macro indicators. The first chart is useful because it suggests that money has the strongest effect when countries are still climbing out of scarcity. Early gains in national income often buy things that are immediately felt in daily life: more reliable infrastructure, greater food security, stronger health systems, and less exposure to crisis.
+                </p>
+                <p>
+                    This is why the money effect is real, especially at the lower end of the income distribution. Additional national wealth can fund cleaner water systems, safer roads, and broader access to care. In policy terms, growth is not separate from well-being. It can be one of the strongest levers for reducing structural stress. At the same time, the slope of the relationship does not mean every extra dollar matters equally. Once countries become materially secure, the returns to more income appear less automatic, which is exactly why the next part of the story becomes so important.
+                </p>
+            </section>
 
-    <!-- 子标题 -->
-    <h2>About this story</h2>
+            <figure>
+                <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1400&q=80" alt="Community gathering representing social support">
+                <figcaption>Countries with stronger social support can outperform richer peers in reported well-being.</figcaption>
+            </figure>
 
-    <!-- 链接 -->
-    <p>
-        Here’s a 
-        <a href="https://www.brown.edu/">link</a>.
-    </p>
+            <section class="chapter">
+                <p>
+                    The second finding is the one that complicates simple narratives. Once countries reach higher income levels, gains in happiness often depend more on social trust, institutional quality, health outcomes, and perceived freedom. In other words, income may build the floor, but social conditions shape the ceiling. The second chart pushes the story beyond GDP by highlighting the variables that help explain why some affluent countries do not end up at the very top of well-being rankings.
+                </p>
+                <p>
+                    Countries that convert wealth into fairness and reliability often score higher than peers with similar GDP. Citizens care not only about consumption power, but about whether systems feel predictable and just. If people do not trust institutions, do not feel socially supported, or face persistent inequality, national income alone may fail to produce comparable well-being outcomes. That is an important insight because it reframes happiness as a governance question as much as an economic one. A society can be rich on paper and still leave many people feeling insecure, isolated, or unable to shape their futures.
+                </p>
+                <p>
+                    This is also where the narrative becomes more policy-relevant. If wealth were the whole answer, then richer would always mean happier. But once the chart shows that trust, health, and freedom continue to matter even among wealthier countries, the policy implication changes: governments need to think not only about how to grow the economy, but about how to translate that growth into stability, fairness, and lived dignity.
+                </p>
+            </section>
 
-    <!-- Tooltip（交互用） -->
-    <div id="myTooltip">_</div>
+            <figure>
+                <img src="./2Artboard 3@2x.png" alt="Dimensions of well-being visual">
+                <figcaption>Non-income factors like trust, health, and freedom explain much of the gap that GDP alone cannot.</figcaption>
+            </figure>
 
-    <!-- 图表容器 -->
-    <div id="myChart"></div>
+            <div class="story-divider" aria-hidden="true"></div>
+
+            <section class="chapter">
+                <p>
+                    The most important analytical move is to look at mismatch: countries that are richer than their happiness rank suggests, and countries that achieve relatively high happiness with fewer resources. These mismatches are not outliers to ignore; they are policy clues. They point to hidden strengths and weaknesses in national systems. The third chart is especially valuable because it changes the question from simple correlation to performance. It asks which countries are converting resources into well-being efficiently, and which are leaving potential well-being on the table.
+                </p>
+                <p>
+                    A high-GDP country with weak social trust may underperform. A middle-income country with strong community ties and effective social protection may overperform. The comparative perspective shifts the conversation from "who is richest" to "who turns resources into durable well-being." That is a much more useful question for governments and citizens. Instead of treating happiness rankings like a scoreboard, the chart encourages readers to treat them like a diagnostic tool. Overperformers suggest models worth studying; underperformers reveal where wealth is failing to become quality of life.
+                </p>
+            </section>
+
+            <figure class="wide-figure">
+                <img src="./3Artboard 4@2x.png" alt="Data sharing and policy action visual">
+                <figcaption>Comparable cross-country data helps identify which policy environments convert resources into well-being.</figcaption>
+            </figure>
+
+            <div class="story-divider" aria-hidden="true"></div>
+
+            <section class="chapter">
+                <p>
+                    So, does money buy happiness? At the country level, the best answer is: partially, and conditionally. Money matters most where basic needs are unmet. But after a point, the quality of institutions and social relationships becomes increasingly decisive. National well-being appears to be produced by both economic capacity and social architecture.
+                </p>
+                <p>
+                    This is why World Happiness Report data is useful here, not as the story itself, but as a method for testing the story. It gives comparable country-level signals that help separate myth from pattern. If the goal is to build happier societies, the evidence suggests a dual agenda: grow inclusive prosperity, and invest in trust, health, and social support systems that convert prosperity into lived quality of life. Put simply, money helps most when basic needs are unmet, but among richer countries, institutional and social conditions often decide who is actually happier. The broader insight is that happiness is not just a reward for national wealth; it is an outcome produced by how a society distributes security, builds trust, and turns resources into everyday stability.
+                </p>
+            </section>
+        </article>
+
+        <section class="sources">
+            <h2>Data Sources and Transparency</h2>
+            <p class="sources-note">
+                This narrative is a country-level comparison built from publicly available World Happiness Report materials and interpreted as directional evidence, not causal proof. The three custom graphics are intended to show the income-happiness relationship, where non-income factors matter, and how countries can overperform or underperform relative to wealth.
+            </p>
+            <ul>
+                <li>
+                    World Happiness Report data-sharing portal (primary dataset source):
+                    <a href="https://www.worldhappiness.report/data-sharing/">www.worldhappiness.report/data-sharing/</a>
+                </li>
+                <li>
+                    External narrative image:
+                    <a href="https://images.unsplash.com/photo-1467269204594-9661b134dd2b">Unsplash (night city skyline)</a>
+                </li>
+                <li>
+                    External narrative image:
+                    <a href="https://images.unsplash.com/photo-1529156069898-49953e39b3ac">Unsplash (community gathering)</a>
+                </li>
+            </ul>
+        </section>
+    </main>
 
 </body>
-
-<!-- JS 脚本（放在最后） -->
-<script src="scripts/scatter.js"></script>
 
 </html>
